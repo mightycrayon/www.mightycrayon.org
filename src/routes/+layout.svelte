@@ -27,6 +27,7 @@
     flex-direction: row;
     color: white; 
     align-items: center;
+    z-index: 99;
   }
 
   .navbar-item {
