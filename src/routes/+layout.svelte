@@ -8,7 +8,9 @@
   <a href="/hi" class="navbar-item navbar-link">Hi</a>
 </div>
 
-<slot></slot>
+<div class="body">
+  <slot></slot>
+</div>
 
 <style>
   :global(body) {
@@ -28,7 +30,7 @@
   }
 
   .navbar-item {
-    margin: 1vw;
+    margin: 1vw 2vw 1vw 2vw;
   }
 
   .navbar-link {
