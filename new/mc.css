@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    color: black;
+}
+section {
+    height: 700px;
+    width: auto;
+}
+.container-fluid {
+    font-size: larger;
+    font-weight:500;
+}
+.navbar-nav > li{
+    padding-left:25px;
+    padding-right:25px;
+  }
+#donate {
+    padding-left: 30px;
+}
