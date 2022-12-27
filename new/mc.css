@@ -11,7 +11,7 @@ body {
 	background-color: #9387ab;
 	font: 400 10px "Lato", sans-serif;
 	text-align: center;
-    text-decoration: solid;
+	text-decoration: solid;
 }
 
 .header {
@@ -41,20 +41,24 @@ svg.line-top {
 	width: 100%;
 	background-color: #17141d;
 }
+
 svg.line-bottom {
 	width: 100%;
 }
+
 .menu {
 	width: 750px;
 	margin: 0 auto;
 }
+
 ul {
 	padding: 0;
 	margin: 0;
-    text-decoration: none;
+	text-decoration: none;
 }
 
-ul li,a {
+ul li,
+a {
 	margin: 0;
 	width: 20%;
 	height: 10px;
@@ -87,21 +91,53 @@ polygon {
 	body {
 		font-size: 0.4em;
 	}
+
 	.content {
 		height: calc(100% - 64px);
 	}
 }
-section{
-    height: 600px;
-    width: 100%;        
-    text-align: center;
+
+section {
+	height: 650px;
+	width: 100%;
+	text-align: center;
+	padding: auto;
 }
-h1{
-    padding-top: 276px;
-    padding-bottom: 276px;
-    display: inline-block;
-    background-color: none !important;
-    background-image: none !important;
-    color: white;
-    letter-spacing: 4px;
+
+h1 {
+	padding-top: 276px;
+	padding-bottom: 276px;
+	display: inline-block;
+	background-color: none !important;
+	background-image: none !important;
+	color: white;
+	font-size: xx-large;
 }
+
+.titulo {
+	padding-top: 100px;
+	padding-bottom: 900px;
+	display: inline-block;
+	background-color: none !important;
+	background-image: none !important;
+	color:#17141d;
+	font-size: 100px;
+	text-align: left;
+	padding-right: 900px;
+	padding-left: 200px;
+	font-weight: 500;
+}
+.titul {
+	padding-top: 100px;
+	padding-bottom: 900px;
+	display: inline-block;
+	background-color: none !important;
+	background-image: none !important;
+	color:#17141d;
+	font-size: 100px;
+	text-align: left;
+	padding-right: 900px;
+	padding-left: 200px;
+	font-weight: 500;
+}
+
