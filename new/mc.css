@@ -103,6 +103,12 @@ section {
 	text-align: center;
 	padding: auto;
 }
+.px {
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	padding: auto;
+}
 
 h1 {
 	padding-top: 276px;
