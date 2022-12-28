@@ -1,7 +1,13 @@
 # www.mightycrayon.org
-You should check it out -> www.mightycrayon.org
-Made by 
-@aarnavpbhat Aarnav B |
-@Verisimilitude11 Piyush A |
+
+Deployed live to: https://www.mightycrayon.org/landing.html
+
+Authored by:
+
+* Aarnav Bhat ([@aarnavpbhat](https://github.com/aarnavpbhat))
+* Piyush Acharya ([@Verisimilitude11](https://github.com/Verisimilitude11))
+
 Special thanks to:
-@Nv7-Github Nishant V
+* Microsoft Azure ([@Azure](https://github.com/Azure)) for sponsoring Mighty Crayon with $3,500/year
+* Nishant Vikramaditya ([@Nv7-GitHub](https://github.com/Nv7-GitHub)) for version 1.0
+* ImgBot ([@ImgBotApp](https://github.com/ImgBotApp)) for reducing load time 😃😃
