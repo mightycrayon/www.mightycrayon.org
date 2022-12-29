@@ -31,6 +31,7 @@
       }
     ],
     "disown-opener": "off",
-    "meta-charset-utf-8": "off"
+    "meta-charset-utf-8": "off",
+    "no-inline-styles": "off"
   }
 }
