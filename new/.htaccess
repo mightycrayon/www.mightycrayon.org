@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^landing$ landing.html [L]
+RewriteRule ^landing$ index.html [L]
