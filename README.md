@@ -1,6 +1,6 @@
 # www.mightycrayon.org
 
-Deployed live to: https://www.mightycrayon.org/index.html
+Deployed live to: https://www.mightycrayon.org/
 
 Authored by:
 
