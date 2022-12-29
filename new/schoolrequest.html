@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Mighty Crayon | Apply for Crayons</title>
+        <meta name="description" content="Mighty Crayon is a 501(c)(3) Non-Profit commited to helping children learn and grow through educative creative mediums.">
+    
+        <link rel="icon" sizes="192x192" href="assets/img/icons/android-chrome-192x192.png">
+        <link rel="icon" sizes="512x512" href="assets/img/icons/android-chrome-512x512.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="assets/img/icons/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
+
+        <link rel="manifest" href="assets/img/icons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="canonical" href="index.html"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Mighty Crayon | Crayon Application"/>
+        <meta property="og:description" content="Mighty Crayon is a 501(c)(3) Non-Profit commited to helping children learn and grow through educative creative mediums."/>
+        <meta property="og:url" content="index.html"/>
+        <meta property="og:site_name" content="Mighty Crayon | Crayon Application"/>
+        <meta property="article:publisher" content="https://www.facebook.com/MightyCrayon/"/>
+        <meta property="og:image" content="assets/img/general/piyush-banner.jpg"/>
+
+        <link rel="stylesheet" href="assets/css/app.css">
+    </head>
+    <body oncontextmenu="return false" class=" ">
+        
+        <div class="cursor" data-cursor>
+            <div class="inner">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="cursor-dot" data-cursor-dot></div>
+
+        
+        <div id="loading-cover" class="loading-cover"></div>
+<div id="loading" class="loading">
+    <div class="logo" title="Home">
+        <span class=""><span class="rev_item">
+            <img src="assets/img/icons/android-chrome-512x512.png" width="500"/>
+        </span></span>
+    </div>
+</div>
+
+        <div id="head" class="header">
+	
+	<div class="header-wrap header-static">
+		<div data-stick-cursor>
+			<a href="index.html" class="logo" data-stick-cursor id="main-logo" title="">
+				<img src="assets/img/icons/android-chrome-512x512.png" />
+			</a>
+		</div>
+		
+		<div class="right-nav hidescroll ">
+			
+			<a href="index.html" data-stick-cursor class="font-caps">Home</a>
+			
+		</div>
+	</div>
+	
+	<div class="nav-menu hidescroll" data-stick-cursor id="nav">
+	  <span class="line"></span>
+	  <span class="line"></span>
+	  <span class="font-caps text">Menu</span>
+	</div>
+</div>
+
+
+
+        <div id="menu" class="menu hideOnLoad">
+
+    <div class="menu-content" id="menu-content">
+
+        <div class="nav-close hover-target" data-stick-cursor id="navClose">
+            <span class="line"></span>
+            
+        </div>
+
+        <div class="menu-wrapper">
+            <div class="column">
+                <a href="index.html" class="logo navlink" data-stick-cursor title="">
+                    <img src="assets/img/icons/android-chrome-512x512.png" />
+                </a>
+                <ol class="links">
+                    <li>
+                        <a href="index.html" class="navlink" data-stick-cursor>
+                            <span class="q_split"><span class="rev_item">Home</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="impact.html" class="navlink" data-stick-cursor>
+                            <span class="q_split"><span class="rev_item">Our Impact</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="partner.html" class="navlink" data-stick-cursor>
+                            <span class="q_split"><span class="rev_item">Partner</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="navlink" data-stick-cursor>
+                            <span class="q_split"><span class="rev_item">About</span></span>
+                        </a>
+                    </li>  
+                </ol>
+
+                
+            </div>
+            <div class="nav_bottom">
+                <div class="col">
+                    <div class="copyright hidescroll">
+                        &copy; <span class="year_copy">2023</span> Mighty Crayon. All rights reserved.<br>
+                    </div>	
+                </div>
+               
+                <div class="col">
+                    <div class="copyright hidescroll">
+                        <a href="paypal" data-stick-cursor>Donate</a><br> 
+                        <a href="sponsors.html" data-stick-cursor>Sponsors</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <a href="mailto:contact@mightycrayon.org?subject=Contact Mighty Crayon" data-stick-cursor>Email</a><br>
+                    <a href="https://www.linkedin.com/company/mightycrayon/" class="navlink" data-stick-cursor>LinkedIn</a>
+                </div>
+                
+            </div>
+        </div>
+
+        
+
+        
+
+    </div>
+
+
+
+</div>
+        
+
+        <div id="dynamicLoad" class="dynamic_load">
+            <div class="progress">
+                <div class="bar" id="dynamicBar"></div>
+            </div>
+        </div>
+
+        
+        <div id="barba-wrapper">
+            <div class="barba-container">
+
+                
+
+<canvas id="webgl"></canvas>
+<div class="vignette-overlay"></div>
+
+
+
+<div id="main" class="q_smooth" >
+
+
+    <section class="section  feature-list no-pb" id="section-header">
+		<div class="q-container container-inner">
+            <div class="columns">
+				<div class="column">      
+                    <h2><span class="q_split"><span class="rev_item">Restaurants intrested, fill out this form:</span></span></h2>
+                    <iframe width="940px" height="1080px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__i_nMklUQlFOSTdLRjJJNFFQVFlYUjhEVzBBUUdUSC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                </div>               
+            </div>
+		</div>
+	</section>
+
+    <section class="section platform">
+		<div class="q-container container-inner">
+            <div class="columns">
+    <div class="column">
+        <h6 class="font-caps">Contact & More</h6>
+        <ol class="links">
+            <li>
+                <a href="mailto:contact@mightycrayon.org?subject=Contact Mighty Crayon" target="_blank" rel="noreferrer noopener" data-stick-cursor>
+                    Email
+                    <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t"><polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline> <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line></svg></div>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" target="_blank" rel="noreferrer noopener" data-stick-cursor>
+                    Contact Us
+                    <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t"><polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline> <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line></svg></div>
+                </a>
+            </li>            
+            <li>
+                <a href="https://www.linkedin.com/company/mightycrayon/" target="_blank" rel="noreferrer noopener" data-stick-cursor>
+                    LinkedIn
+                    <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t"><polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline> <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line></svg></div>
+                </a>
+            </li>
+            <li>
+                <a href="instagramlink" target="_blank" rel="noreferrer noopener" data-stick-cursor>
+                    Instagram
+                    <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t"><polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline> <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line></svg></div>
+                </a>
+            </li>
+            <li>
+                <a href="sponsors.html" target="_blank" rel="noreferrer noopener" data-stick-cursor>
+                    Sponsors
+                    <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t"><polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline> <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line></svg></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.paypal.com/paypalme/mightycrayon?fbclid=IwAR2zrmyTgssgY6XVDdsQD1vzcEbGks58gwbLBLhtzyp2puHgpllg5QyqPXQ" target="_blank" rel="noreferrer noopener" data-stick-cursor>
+                     Donate(Paypal)
+                    <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t"><polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline> <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line></svg></div>
+                </a>
+            </li>
+        </ol>
+    </div>
+</div>
+        </div>
+    </section>
+
+	<footer id="footer">
+          <section class="section">
+            <div class="footer-wrap">
+              <a href="index.html" class="logo" data-stick-cursor id="main-logo" title="">
+                <img src="assets/img/icons/android-chrome-512x512.png" />
+                <p>&copy; <span class="year_copy">2023</span> <a href="index.html" data-stick-cursor title="">Mighty
+                    Crayon</a>.
+                  All Rights Reserved.<br>
+                  <a href="terms.html" data-stick-cursor>Terms of Service</a> &nbsp; | &nbsp; <a href="privacy.html"
+                    data-stick-cursor>Privacy Policy</a><br>
+                  Website by Aarnav Bhat and Piyush Acharya
+                </p>
+            </div>
+          </section>
+
+
+        </footer>
+
+
+
+
+</div>
+
+    <script type="x-shader/x-fragment" id="fragmentShader">
+	#define TWO_PI 6.2831853072
+	#define PI 3.14159265359
+
+	precision highp float;
+
+	uniform float globaltime;
+	uniform vec2 resolution;
+	uniform float aspect;
+	uniform float scroll;
+	uniform float velocity;
+	uniform sampler2D texture;
+
+	const float timescale = 0.1;
+	const float twist = 2.0;
+
+	vec2 rotate(vec2 v, float angle) {
+		float c = cos(angle);
+		float s = sin(angle);
+		return v * mat2(c, -s, s, c);
+	}
+
+	float nsin(float value) {
+		return sin(value * TWO_PI) * 0.5 + 0.5;
+	}
+
+	void main(void) {
+		float time = globaltime * timescale;
+		vec2 center = vec2(sin(TWO_PI * time * 0.2), cos(TWO_PI * time * 0.2)) * nsin(time * 0.3) * 0.5;
+		vec2 tx = (gl_FragCoord.xy / resolution.xy - 0.5 - center) * vec2(aspect, 1.0);
+		float len = 1.0 - length(tx);
+		float zoom = 0.0 + scroll - len * 2.0 * (1.0 - scroll) + len * velocity;
+
+		vec4 imgColor = texture2D(
+			texture,
+			rotate(
+				(tx + center) * vec2(1.0, -1.0) * zoom,
+				twist * TWO_PI * nsin(len + time) * scroll + time
+			) + 0.5
+		);
+
+        
+
+		gl_FragColor = imgColor;
+	}
+	</script>
+    
+
+
+            </div>
+        </div>
+
+        
+
+        <script src="../unpkg.com/axios%400.27.2/dist/axios.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+    </body>
+
+    <script type="module">
+    const imgSize = [1250, 1097];
+
+    const vertex = `
+					attribute vec2 uv;
+					attribute vec2 position;
+					varying vec2 vUv;
+					void main() {
+							vUv = uv;
+							gl_Position = vec4(position, 0, 1);
+					}
+			`;
+    const fragment = `
+					precision highp float;
+					precision highp int;
+					uniform sampler2D tWater;
+					uniform sampler2D tFlow;
+					uniform float uTime;
+					varying vec2 vUv;
+					uniform vec4 res;
+
+					void main() {
+
+							// R and G values are velocity in the x and y direction
+							// B value is the velocity length
+							vec3 flow = texture2D(tFlow, vUv).rgb;
+
+							vec2 uv = .5 * gl_FragCoord.xy / res.xy ;
+							vec2 myUV = (uv - vec2(0.5))*res.zw + vec2(0.5);
+							myUV -= flow.xy * (0.15 * 0.7);
+
+							vec2 myUV2 = (uv - vec2(0.5))*res.zw + vec2(0.5);
+							myUV2 -= flow.xy * (0.125 * 0.7);
+
+							vec2 myUV3 = (uv - vec2(0.5))*res.zw + vec2(0.5);
+							myUV3 -= flow.xy * (0.10 * 0.7);
+
+							vec3 tex = texture2D(tWater, myUV).rgb;
+							vec3 tex2 = texture2D(tWater, myUV2).rgb;
+							vec3 tex3 = texture2D(tWater, myUV3).rgb;
+
+              gl_FragColor = vec4(tex.r, tex2.g, tex3.b, 1.0);
+					}
+			`;
+    {
+      const renderer = new ogl.Renderer({ dpr: 2 });
+      const gl = renderer.gl;
+
+      
+
+      document.getElementById('menu-content').appendChild(gl.canvas);
+
+      //gl.canvas.classList.add('kenburns')
+
+      // Variable inputs to control flowmap
+      let aspect = 1;
+      const mouse = new ogl.Vec2(-1);
+      const velocity = new ogl.Vec2();
+      function resize() {
+        let a1, a2;
+        var imageAspect = imgSize[1] / imgSize[0];
+        if (window.innerHeight / window.innerWidth < imageAspect) {
+          a1 = 1;
+          a2 = window.innerHeight / window.innerWidth / imageAspect;
+        } else {
+          a1 = (window.innerWidth / window.innerHeight) * imageAspect;
+          a2 = 1;
+        }
+        mesh.program.uniforms.res.value = new ogl.Vec4(
+          window.innerWidth,
+          window.innerHeight,
+          a1,
+          a2
+        );
+
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        aspect = window.innerWidth / window.innerHeight;
+      }
+      const flowmap = new ogl.Flowmap(gl, {
+        falloff: 1.0, // size of the stamp, percentage of the size
+        alpha: 0.3, // opacity of the stamp
+        dissipation: 0.94 // affects the speed that the stamp fades. Closer to 1 is slower
+      });
+      // Triangle that includes -1 to 1 range for 'position', and 0 to 1 range for 'uv'.
+      const geometry = new ogl.Geometry(gl, {
+        position: {
+          size: 2,
+          data: new Float32Array([-1, -1, 3, -1, -1, 3])
+        },
+        uv: { size: 2, data: new Float32Array([0, 0, 2, 0, 0, 2]) }
+      });
+      const texture = new ogl.Texture(gl, {
+        minFilter: gl.LINEAR,
+        magFilter: gl.LINEAR
+      });
+      const img = new Image();
+      img.onload = () => (texture.image = img);
+      img.crossOrigin = "Anonymous";
+      img.src = "assets/img/general/navbg.jpg";
+
+      let a1, a2;
+      var imageAspect = imgSize[1] / imgSize[0];
+      if (window.innerHeight / window.innerWidth < imageAspect) {
+        a1 = 1;
+        a2 = window.innerHeight / window.innerWidth / imageAspect;
+      } else {
+        a1 = (window.innerWidth / window.innerHeight) * imageAspect;
+        a2 = 1;
+      }
+
+      const program = new ogl.Program(gl, {
+        vertex,
+        fragment,
+        uniforms: {
+          uTime: { value: 0 },
+          tWater: { value: texture },
+          res: {
+            value: new ogl.Vec4(window.innerWidth, window.innerHeight, a1, a2)
+          },
+          img: { value: new ogl.Vec2(imgSize[0], imgSize[1]) },
+          // Note that the uniform is applied without using an object and value property
+          // This is because the class alternates this texture between two render targets
+          // and updates the value property after each render.
+          tFlow: flowmap.uniform
+        }
+      });
+      const mesh = new ogl.Mesh(gl, { geometry, program });
+
+      window.addEventListener("resize", resize, false);
+      resize();
+
+      // Create handlers to get mouse position and velocity
+      const isTouchCapable = "ontouchstart" in window;
+      if (isTouchCapable) {
+        //window.addEventListener("touchstart", updateMouse, false);
+        //window.addEventListener("touchmove", updateMouse, { passive: false });
+      } else {
+        window.addEventListener("mousemove", updateMouse, false);
+      }
+      let lastTime;
+      const lastMouse = new ogl.Vec2();
+      function updateMouse(e) {
+        e.preventDefault();
+        if (e.changedTouches && e.changedTouches.length) {
+          e.x = e.changedTouches[0].pageX;
+          e.y = e.changedTouches[0].pageY;
+        }
+        if (e.x === undefined) {
+          e.x = e.pageX;
+          e.y = e.pageY;
+        }
+        // Get mouse value in 0 to 1 range, with y flipped
+        mouse.set(e.x / gl.renderer.width, 1.0 - e.y / gl.renderer.height);
+        // Calculate velocity
+        if (!lastTime) {
+          // First frame
+          lastTime = performance.now();
+          lastMouse.set(e.x, e.y);
+        }
+
+        const deltaX = e.x - lastMouse.x;
+        const deltaY = e.y - lastMouse.y;
+
+        lastMouse.set(e.x, e.y);
+
+        let time = performance.now();
+
+        // Avoid dividing by 0
+        let delta = Math.max(10.4, time - lastTime);
+        lastTime = time;
+        velocity.x = deltaX / delta;
+        velocity.y = deltaY / delta;
+        // Flag update to prevent hanging velocity values when not moving
+        velocity.needsUpdate = true;
+      }
+      requestAnimationFrame(update);
+
+        var menu = document.getElementById('menu')
+
+        
+        
+
+        function update(t) {
+
+            requestAnimationFrame(update);
+
+            if (menu.classList.contains('active')) {
+                
+                // Reset velocity when mouse not moving
+                if (!velocity.needsUpdate) {
+                mouse.set(-1);
+                velocity.set(0);
+                }
+                velocity.needsUpdate = false;
+                // Update flowmap inputs
+                flowmap.aspect = aspect;
+                flowmap.mouse.copy(mouse);
+                // Ease velocity input, slower when fading out
+                flowmap.velocity.lerp(velocity, velocity.len ? 0.15 : 0.1);
+                flowmap.update();
+                program.uniforms.uTime.value = t * 0.01;
+                renderer.render({ scene: mesh });
+            }
+            
+            
+        }
+
+
+    }
+  </script>
+</html>
