@@ -159,6 +159,8 @@
                 
 
 <canvas id="webgl"></canvas>
+<div class="vignette-overlay"></div>
+
 
 
 <div id="main" class="q_smooth" >
@@ -451,7 +453,7 @@
       const img = new Image();
       img.onload = () => (texture.image = img);
       img.crossOrigin = "Anonymous";
-      img.src = "assets/img/general/navbg.jpg";
+      img.src = "assets/img/general/navbgjpg";
 
       let a1, a2;
       var imageAspect = imgSize[1] / imgSize[0];
