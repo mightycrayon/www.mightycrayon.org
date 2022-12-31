@@ -2918,7 +2918,7 @@ function webglScroll() {
 
 	// Loading a texture
 	var img = new Image();
-	img.src = '/assets/img/general/navbg.jpg';
+	img.src = '/assets/img/general/navbg2.jpg';
 	img.onload = function() {
 		setTimeout(function() { document.body.classList.remove('loading');}, 1000);
 
