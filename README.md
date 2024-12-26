@@ -10,3 +10,4 @@ Authored by:
 Special thanks to:
 * Microsoft Azure ([@Azure](https://github.com/Azure)) for sponsoring Mighty Crayon with $3,500/year
 * ImgBot ([@ImgBotApp](https://github.com/ImgBotApp)) for reducing load time 😃😃
+* Applebee's Restaurants, Red Robin, and Olive Garden for maintaining our national partnership over the years
