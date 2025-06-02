@@ -1,24 +1,20 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Mighty Crayon | About Us</title>
     <meta name="description"
         content="Mighty Crayon is a 501(c)(3) Nonprofit commited to helping children learn and grow through educative creative mediums.">
-
     <link rel="icon" sizes="192x192" href="assets/img/icons/android-chrome-192x192.png">
     <link rel="icon" sizes="512x512" href="assets/img/icons/android-chrome-512x512.png">
     <link rel="apple-touch-icon" sizes="192x192" href="assets/img/icons/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
-
     <link rel="manifest" href="assets/img/icons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
+    <meta name="theme-color" content="#000000">
     <link rel="canonical" href="index.html" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
@@ -29,20 +25,15 @@
     <meta property="og:site_name" content="Mighty Crayon | About" />
     <meta property="article:publisher" content="https://www.facebook.com/MightyCrayon/" />
     <meta property="og:image" content="assets/img/general/piyush-banner.jpg" />
-
     <link rel="stylesheet" href="assets/css/app.css">
 </head>
-
-<body oncontextmenu="return false" class=" ">
-
+<body oncontextmenu="return false" class="y-scroll">
     <div class="cursor" data-cursor>
         <div class="inner">
             <div class="circle"></div>
         </div>
     </div>
     <div class="cursor-dot" data-cursor-dot></div>
-
-
     <div id="loading-cover" class="loading-cover"></div>
     <div id="loading" class="loading">
         <div class="logo" title="Home">
@@ -51,41 +42,31 @@
                 </span></span>
         </div>
     </div>
-
     <div id="head" class="header">
-
         <div class="header-wrap header-static">
             <div data-stick-cursor>
                 <a href="index.html" class="logo" data-stick-cursor id="main-logo" title="">
                     <img src="assets/img/icons/android-chrome-512x512.png" />
                 </a>
             </div>
-
-            <div class="right-nav hidescroll ">
-
+            <div class="right-nav hidescroll">
+                <a href="index.html" data-stick-cursor class="font-caps">Home</a>
+                <a href="impact.html" data-stick-cursor class="font-caps">Impact</a>
                 <a href="about.html" data-stick-cursor class="font-caps">About</a>
-
+                <a href="https://www.paypal.com/paypalme/mightycrayon" target="_blank" data-stick-cursor class="btn alt">Donate</a>
             </div>
         </div>
-
         <div class="nav-menu hidescroll" data-stick-cursor id="nav">
             <span class="line"></span>
             <span class="line"></span>
             <span class="font-caps text">Menu</span>
         </div>
     </div>
-
-
-
     <div id="menu" class="menu hideOnLoad">
-
         <div class="menu-content" id="menu-content">
-
             <div class="nav-close hover-target" data-stick-cursor id="navClose">
                 <span class="line"></span>
-
             </div>
-
             <div class="menu-wrapper">
                 <div class="column">
                     <a href="index.html" class="logo navlink" data-stick-cursor title="">
@@ -112,9 +93,12 @@
                                 <span class="q_split"><span class="rev_item">About</span></span>
                             </a>
                         </li>
+                        <li>
+                            <a href="contact.html" class="navlink" data-stick-cursor>
+                                <span class="q_split"><span class="rev_item">Contact</span></span>
+                            </a>
+                        </li>
                     </ol>
-
-
                 </div>
                 <div class="nav_bottom">
                     <div class="col">
@@ -122,140 +106,159 @@
                             &copy; <span class="year_copy">2023</span> Mighty Crayon. All rights reserved.<br>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="copyright hidescroll">
                             <a href="http://paypal.me/mightycrayon" data-stick-cursor>Donate</a><br>
                             <a href="sponsors.html" data-stick-cursor>Sponsors</a>
                         </div>
                     </div>
-
                     <div class="col">
                         <a href="mailto:contact@mightycrayon.org?subject=Contact Mighty Crayon"
                             data-stick-cursor>Email</a><br>
                         <a href="https://www.linkedin.com/company/mightycrayon/" class="navlink"
                             data-stick-cursor>LinkedIn</a>
                     </div>
-
                 </div>
             </div>
-
-
-
-
-
         </div>
-
-
-
     </div>
-
-
     <div id="dynamicLoad" class="dynamic_load">
         <div class="progress">
             <div class="bar" id="dynamicBar"></div>
         </div>
     </div>
-
-
     <div id="barba-wrapper">
         <div class="barba-container">
-
-
-
             <canvas id="webgl"></canvas>
             <div class="vignette-overlay"></div>
-
-
-
             <div id="main" class="q_smooth">
-
-
-                <section class="section  feature-list no-pb" id="section-header">
+                <!-- Hero Section -->
+                <section class="section dark no-pb" style="min-height: 60vh; display: flex; align-items: center; padding-top: 0;">
+                    <div class="q-container container-inner">
+                        <div class="columns">
+                            <div class="column q-8">
+                                <h1><span class="q_split"><span class="rev_item">About Us</span></span></h1>
+                                <p class="lead rev_show" style="max-width: 600px;">We're on a mission to transform discarded crayons into tools for creative expression and educational development for children worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Mission Section -->
+                <section class="section feature-list">
                     <div class="q-container container-inner">
                         <div class="columns">
                             <div class="column">
-                                <h1><span class="q_split"><span class="rev_item">About Mighty Crayon</span></span></h1>
-
-                                <ol class="article-group no-pt rev_show">
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Our Mission</h4>
-                                        <p>Our mission is to encourage enjoyable and empowering experiences for children
-                                            around the world through the use of recycled creative mediums. By recycling
-                                            used crayons, we're not only helping to reduce wastefulness, but we're also
-                                            giving children in need the opportunity to have some fun and be creative.
-                                        </p>
-                                    </li>
-                                    <h2><span class="q_split"><span class="rev_item">Our Members</span></span></h2>
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Vijay Garg</h4>
-                                        <p><a href="">Chairman</a><br>
-                                            <!-- Write about yourself -->
-                                        </p>
-                                    </li>
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Piyush Acharya</h4>
-                                        <p><a href="https://www.piyushacharya.com/">Co-President</a><br>
-                                            Joined Mighty Crayon in September 2021.
-                                        </p>
-                                    </li>
-			 	    <li class="journal-thumbnail-container">
-                                        <h4>Shiven Abhyanker</h4>
-                                        <p><a href="https://www.piyushacharya.com/">Co-President</a><br>
-                                            Joined Mighty Crayon in September 2021.
-                                        </p>
-                                    </li>
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Aarnav Bhat</h4>
-                                        <p><a href="Aarnav Bhat Website Link/Linkedin Link">Volunteer</a><br>
-                                            <!-- Write about yourself -->
-                                        </p>
-                                    </li>
-
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Sara Sunil</h4>
-                                        <p><a href="Aarnav Bhat Website Link/Linkedin Link">Volunteer</a><br>
-                                            <!-- Write about yourself -->
-                                        </p>
-                                    </li>
-
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Shrivas Vanimireddy</h4>
-                                        <p><a href="https://www.linkedin.com/in/arya-kashyap-2a4ab6249/">Volunteer</a><br>
-                                            <!-- Write about yourself -->
-                                        </p>
-                                    </li>
-
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Kaan Saydag</h4>
-                                        <p><a href="https://www.linkedin.com/in/arya-kashyap-2a4ab6249/">Volunteer</a><br>
-                                            <!-- Write about yourself -->
-                                        </p>
-                                    </li>
-
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Hakaan Saydag</h4>
-                                        <p><a href="https://www.linkedin.com/in/arya-kashyap-2a4ab6249/">Volunteer</a><br>
-                                            <!-- Write about yourself -->
-                                        </p>
-                                    </li>
-
-                                    <li class="journal-thumbnail-container">
-                                        <h4>80+</h4>
-                                        <p><a href="https://www.linkedin.com/in/arya-kashyap-2a4ab6249/">Volunteers since 2022</a><br>
-                                            <!-- Write about yourself -->
-                                        </p>
-                                    </li>
-
-                                </ol>
+                                <div class="journal-thumbnail-container" style="background: rgba(15, 15, 25, 0.4); border-radius: 16px;">
+                                    <h2><span class="q_split"><span class="rev_item">Our Mission</span></span></h2>
+                                    <p style="font-size: 1.2rem; max-width: 800px; margin-top: 1.5rem;">Our mission is to encourage enjoyable and empowering experiences for children around the world through the use of recycled creative mediums. By recycling used crayons, we're not only helping to reduce wastefulness, but we're also giving children in need the opportunity to have some fun and be creative.</p>
+                                    <div class="flex-buttons" style="display: flex; gap: 1rem; margin-top: 2rem;">
+                                        <a href="impact.html" class="btn" data-stick-cursor>
+                                            <span>See Our Impact</span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-
-
-
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Team Section -->
+                <section class="section feature-list">
+                    <div class="q-container container-inner">
+                        <div class="columns">
+                            <div class="column">
+                                <h2><span class="q_split"><span class="rev_item">Our Team</span></span></h2>
+                                <p class="lead" style="margin-bottom: 3rem;">Meet the passionate people behind Mighty Crayon who are dedicated to making a difference.</p>
+                                
+                                <!-- Leadership Cards -->
+                                <div class="columns" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Vijay Garg</h4>
+                                        <div class="role" style="color: var(--ai-accent); font-weight: 500; margin-bottom: 1rem;">Chairman</div>
+                                        <p>Leading our mission to make a global impact through education and creativity.</p>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Piyush Acharya</h4>
+                                        <div class="role" style="color: var(--ai-accent); font-weight: 500; margin-bottom: 1rem;">Co-President</div>
+                                        <p>Joined Mighty Crayon in September 2021, specializing in outreach and partnerships.</p>
+                                        <a href="https://www.piyushacharya.com/" target="_blank" class="profile-link" style="display: inline-block; margin-top: 1rem; position: relative; font-weight: 500;">Visit Profile →</a>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Shiven Abhyanker</h4>
+                                        <div class="role" style="color: var(--ai-accent); font-weight: 500; margin-bottom: 1rem;">Co-President</div>
+                                        <p>Joined Mighty Crayon in September 2021, focusing on strategic planning and operations.</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Volunteers Section -->
+                                <h3 style="margin-top: 2rem; margin-bottom: 1.5rem;"><span class="q_split"><span class="rev_item">Our Volunteers</span></span></h3>
+                                
+                                <div class="columns" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem;">
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Aarnav Bhat</h4>
+                                        <div class="role" style="color: var(--ai-accent); font-weight: 500; margin-bottom: 1rem;">Volunteer</div>
+                                        <p>Web development and digital strategy specialist.</p>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Sara Sunil</h4>
+                                        <div class="role" style="color: var(--ai-accent); font-weight: 500; margin-bottom: 1rem;">Volunteer</div>
+                                        <p>Contributes to outreach and community engagement initiatives.</p>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Shrivas Vanimireddy</h4>
+                                        <div class="role" style="color: var(--ai-accent); font-weight: 500; margin-bottom: 1rem;">Volunteer</div>
+                                        <p>Supports logistics and operations for crayon collections.</p>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Kaan Saydag</h4>
+                                        <div class="role" style="color: var(--ai-accent); font-weight: 500; margin-bottom: 1rem;">Volunteer</div>
+                                        <p>Drives donation initiatives and partnership development.</p>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Hakaan Saydag</h4>
+                                        <div class="role" style="color: var(--ai-accent); font-weight: 500; margin-bottom: 1rem;">Volunteer</div>
+                                        <p>Assists with school programs and distribution efforts.</p>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container stat">
+                                        <h4>Extended Team</h4>
+                                        <p>80+</p>
+                                        <div style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Volunteers since 2022</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Join Us Section -->
+                <section class="section" style="background: rgba(15, 15, 25, 0.4); border-radius: 16px; margin: 0 2rem; width: calc(100% - 4rem);">
+                    <div class="q-container container-inner">
+                        <div class="columns">
+                            <div class="column" style="text-align: center;">
+                                <h2 style="margin-bottom: 1.5rem;"><span class="q_split"><span class="rev_item">Join Our Mission</span></span></h2>
+                                <p style="margin-bottom: 2rem; text-align: center; max-width: 700px; margin-left: auto; margin-right: auto;">We're always looking for passionate individuals and organizations to help us expand our impact. Whether you want to volunteer, donate, or become a partner, there's a place for you in our mission.</p>
+                                <div class="flex-buttons" style="display: flex; gap: 1.5rem; justify-content: center;">
+                                    <a href="contact.html" class="btn" data-stick-cursor>
+                                        <span>Get Involved</span>
+                                    </a>
+                                    <a href="https://www.paypal.com/paypalme/mightycrayon" target="_blank" class="btn alt" data-stick-cursor>
+                                        <span>Support Us</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
 
+                <!-- Contact Section -->
                 <section class="section platform">
                     <div class="q-container container-inner">
                         <div class="columns">
@@ -307,64 +310,52 @@
                         </div>
                     </div>
                 </section>
-
+                
+                <!-- Footer Section -->
                 <footer id="footer">
                     <section class="section">
                         <div class="footer-wrap">
                             <a href="index.html" class="logo" data-stick-cursor id="main-logo" title="">
                                 <img src="assets/img/icons/android-chrome-512x512.png" />
-                                <p>&copy; <span class="year_copy">2023</span> <a href="index.html" data-stick-cursor
-                                        title="">Mighty
-                                        Crayon</a>.
-                                    All Rights Reserved.<br>
-                                    <a href="terms.html" data-stick-cursor>Terms of Service</a> &nbsp; | &nbsp; <a
-                                        href="privacy.html" data-stick-cursor>Privacy Policy</a><br>
-                                    Website by Aarnav Bhat and Piyush Acharya
-                                </p>
+                            </a>
+                            <p>&copy; <span class="year_copy">2023</span> <a href="index.html" data-stick-cursor
+                                    title="">Mighty
+                                    Crayon</a>.
+                                All Rights Reserved.<br>
+                                <a href="terms.html" data-stick-cursor>Terms of Service</a> &nbsp; | &nbsp; <a
+                                    href="privacy.html" data-stick-cursor>Privacy Policy</a><br>
+                                Website by Aarnav Bhat and Piyush Acharya
+                            </p>
                         </div>
                     </section>
-
-
                 </footer>
-
-
-
-
             </div>
-
             <script type="x-shader/x-fragment" id="fragmentShader">
 	#define TWO_PI 6.2831853072
 	#define PI 3.14159265359
-
 	precision highp float;
-
 	uniform float globaltime;
 	uniform vec2 resolution;
 	uniform float aspect;
 	uniform float scroll;
 	uniform float velocity;
 	uniform sampler2D texture;
-
 	const float timescale = 0.1;
 	const float twist = 2.0;
-
 	vec2 rotate(vec2 v, float angle) {
 		float c = cos(angle);
 		float s = sin(angle);
 		return v * mat2(c, -s, s, c);
 	}
-
 	float nsin(float value) {
 		return sin(value * TWO_PI) * 0.5 + 0.5;
 	}
-
 	void main(void) {
 		float time = globaltime * timescale;
 		vec2 center = vec2(sin(TWO_PI * time * 0.2), cos(TWO_PI * time * 0.2)) * nsin(time * 0.3) * 0.5;
 		vec2 tx = (gl_FragCoord.xy / resolution.xy - 0.5 - center) * vec2(aspect, 1.0);
 		float len = 1.0 - length(tx);
 		float zoom = 0.0 + scroll - len * 2.0 * (1.0 - scroll) + len * velocity;
-
 		vec4 imgColor = texture2D(
 			texture,
 			rotate(
@@ -372,28 +363,17 @@
 				twist * TWO_PI * nsin(len + time) * scroll + time
 			) + 0.5
 		);
-
         
-
 		gl_FragColor = imgColor;
 	}
 	</script>
-
-
-
         </div>
     </div>
-
-
-
     <script src="../unpkg.com/axios%400.27.2/dist/axios.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-
 </body>
-
 <script type="module">
     const imgSize = [1250, 1097];
-
     const vertex = `
 					attribute vec2 uv;
 					attribute vec2 position;
@@ -411,40 +391,28 @@
 					uniform float uTime;
 					varying vec2 vUv;
 					uniform vec4 res;
-
 					void main() {
-
 							// R and G values are velocity in the x and y direction
 							// B value is the velocity length
 							vec3 flow = texture2D(tFlow, vUv).rgb;
-
 							vec2 uv = .5 * gl_FragCoord.xy / res.xy ;
 							vec2 myUV = (uv - vec2(0.5))*res.zw + vec2(0.5);
 							myUV -= flow.xy * (0.15 * 0.7);
-
 							vec2 myUV2 = (uv - vec2(0.5))*res.zw + vec2(0.5);
 							myUV2 -= flow.xy * (0.125 * 0.7);
-
 							vec2 myUV3 = (uv - vec2(0.5))*res.zw + vec2(0.5);
 							myUV3 -= flow.xy * (0.10 * 0.7);
-
 							vec3 tex = texture2D(tWater, myUV).rgb;
 							vec3 tex2 = texture2D(tWater, myUV2).rgb;
 							vec3 tex3 = texture2D(tWater, myUV3).rgb;
-
               gl_FragColor = vec4(tex.r, tex2.g, tex3.b, 1.0);
 					}
 			`;
     {
         const renderer = new ogl.Renderer({ dpr: 2 });
         const gl = renderer.gl;
-
-
-
         document.getElementById('menu-content').appendChild(gl.canvas);
-
         //gl.canvas.classList.add('kenburns')
-
         // Variable inputs to control flowmap
         let aspect = 1;
         const mouse = new ogl.Vec2(-1);
@@ -465,7 +433,6 @@
                 a1,
                 a2
             );
-
             renderer.setSize(window.innerWidth, window.innerHeight);
             aspect = window.innerWidth / window.innerHeight;
         }
@@ -490,7 +457,6 @@
         img.onload = () => (texture.image = img);
         img.crossOrigin = "Anonymous";
         img.src = "assets/img/general/navbg2.jpg";
-
         let a1, a2;
         var imageAspect = imgSize[1] / imgSize[0];
         if (window.innerHeight / window.innerWidth < imageAspect) {
@@ -500,7 +466,6 @@
             a1 = (window.innerWidth / window.innerHeight) * imageAspect;
             a2 = 1;
         }
-
         const program = new ogl.Program(gl, {
             vertex,
             fragment,
@@ -518,10 +483,8 @@
             }
         });
         const mesh = new ogl.Mesh(gl, { geometry, program });
-
         window.addEventListener("resize", resize, false);
         resize();
-
         // Create handlers to get mouse position and velocity
         const isTouchCapable = "ontouchstart" in window;
         if (isTouchCapable) {
@@ -550,14 +513,10 @@
                 lastTime = performance.now();
                 lastMouse.set(e.x, e.y);
             }
-
             const deltaX = e.x - lastMouse.x;
             const deltaY = e.y - lastMouse.y;
-
             lastMouse.set(e.x, e.y);
-
             let time = performance.now();
-
             // Avoid dividing by 0
             let delta = Math.max(10.4, time - lastTime);
             lastTime = time;
@@ -567,18 +526,10 @@
             velocity.needsUpdate = true;
         }
         requestAnimationFrame(update);
-
         var menu = document.getElementById('menu')
-
-
-
-
         function update(t) {
-
             requestAnimationFrame(update);
-
             if (menu.classList.contains('active')) {
-
                 // Reset velocity when mouse not moving
                 if (!velocity.needsUpdate) {
                     mouse.set(-1);
@@ -594,12 +545,7 @@
                 program.uniforms.uTime.value = t * 0.01;
                 renderer.render({ scene: mesh });
             }
-
-
         }
-
-
     }
 </script>
-
 </html>

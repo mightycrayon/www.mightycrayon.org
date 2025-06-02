@@ -1,24 +1,20 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Contact Us | Mighty Crayon</title>
     <meta name="description"
         content="Mighty Crayon is a 501(c)(3) Non-Profit commited to helping children learn and grow through educative creative mediums.">
-
     <link rel="icon" sizes="192x192" href="assets/img/icons/android-chrome-192x192.png">
     <link rel="icon" sizes="512x512" href="assets/img/icons/android-chrome-512x512.png">
     <link rel="apple-touch-icon" sizes="192x192" href="assets/img/icons/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
-
     <link rel="manifest" href="assets/img/icons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
+    <meta name="theme-color" content="#000000">
     <link rel="canonical" href="index.html" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
@@ -29,20 +25,15 @@
     <meta property="og:site_name" content="Mighty Crayon | Contact" />
     <meta property="article:publisher" content="https://www.facebook.com/MightyCrayon/" />
     <meta property="og:image" content="assets/img/general/piyush-banner.jpg" />
-
     <link rel="stylesheet" href="assets/css/app.css">
 </head>
-
-<body oncontextmenu="return false" class=" ">
-
+<body oncontextmenu="return false" class="y-scroll">
     <div class="cursor" data-cursor>
         <div class="inner">
             <div class="circle"></div>
         </div>
     </div>
     <div class="cursor-dot" data-cursor-dot></div>
-
-
     <div id="loading-cover" class="loading-cover"></div>
     <div id="loading" class="loading">
         <div class="logo" title="Home">
@@ -51,41 +42,31 @@
                 </span></span>
         </div>
     </div>
-
     <div id="head" class="header">
-
         <div class="header-wrap header-static">
             <div data-stick-cursor>
                 <a href="index.html" class="logo" data-stick-cursor id="main-logo" title="">
                     <img src="assets/img/icons/android-chrome-512x512.png" />
                 </a>
             </div>
-
-            <div class="right-nav hidescroll ">
-
-                <a href="contact.html" data-stick-cursor class="font-caps">Contact</a>
-
+            <div class="right-nav hidescroll">
+                <a href="index.html" data-stick-cursor class="font-caps">Home</a>
+                <a href="impact.html" data-stick-cursor class="font-caps">Impact</a>
+                <a href="about.html" data-stick-cursor class="font-caps">About</a>
+                <a href="https://www.paypal.com/paypalme/mightycrayon" target="_blank" data-stick-cursor class="btn alt">Donate</a>
             </div>
         </div>
-
         <div class="nav-menu hidescroll" data-stick-cursor id="nav">
             <span class="line"></span>
             <span class="line"></span>
             <span class="font-caps text">Menu</span>
         </div>
     </div>
-
-
-
     <div id="menu" class="menu hideOnLoad">
-
         <div class="menu-content" id="menu-content">
-
             <div class="nav-close hover-target" data-stick-cursor id="navClose">
                 <span class="line"></span>
-
             </div>
-
             <div class="menu-wrapper">
                 <div class="column">
                     <a href="index.html" class="logo navlink" data-stick-cursor title="">
@@ -112,9 +93,12 @@
                                 <span class="q_split"><span class="rev_item">About</span></span>
                             </a>
                         </li>
+                        <li>
+                            <a href="contact.html" class="navlink" data-stick-cursor>
+                                <span class="q_split"><span class="rev_item">Contact</span></span>
+                            </a>
+                        </li>
                     </ol>
-
-
                 </div>
                 <div class="nav_bottom">
                     <div class="col">
@@ -122,193 +106,175 @@
                             &copy; <span class="year_copy">2023</span> Mighty Crayon. All rights reserved.<br>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="copyright hidescroll">
                             <a href="http://paypal.me/mightycrayon" data-stick-cursor>Donate</a><br>
                             <a href="sponsors.html" data-stick-cursor>Sponsors</a>
                         </div>
                     </div>
-
                     <div class="col">
                         <a href="mailto:contact@mightycrayon.org?subject=Contact Mighty Crayon"
                             data-stick-cursor>Email</a><br>
                         <a href="https://www.linkedin.com/company/mightycrayon/" class="navlink"
                             data-stick-cursor>LinkedIn</a>
                     </div>
-
                 </div>
             </div>
-
-
-
-
-
         </div>
-
-
-
     </div>
-
-
     <div id="dynamicLoad" class="dynamic_load">
         <div class="progress">
             <div class="bar" id="dynamicBar"></div>
         </div>
     </div>
-
-
     <div id="barba-wrapper">
         <div class="barba-container">
-
-
-
             <canvas id="webgl"></canvas>
             <div class="vignette-overlay"></div>
-
-
-
             <div id="main" class="q_smooth">
-
-
-                <section class="section  feature-list no-pb" id="section-header">
+                <!-- Hero Section -->
+                <section class="section dark no-pb" style="min-height: 60vh; display: flex; align-items: center; padding-top: 0;">
                     <div class="q-container container-inner">
                         <div class="columns">
-                            <div class="column">
-                                <h1><span class="q_split"><span class="rev_item">Mighty Crayon Contact</span></span>
-                                </h1>
-
-                                <ol class="article-group no-pt rev_show">
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Email</h4>
-                                        <p><a href="mailto:contact@mightycrayon.org" class="navlink" data-stick-cursor>contact@mightycrayon.org</a></p>
-                                    </li>
-                                    <li class="journal-thumbnail-container">
-                                        <h4>If your a company</h4>
-                                        <p><a href="partner.html">Try this</p>
-                                    </li>
-                                    <li class="journal-thumbnail-container">
-                                        <h4>Other Details</h4>
-                                        <p>Email us if you need more details.</p>
-                                    </li>
-                                </ol>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section platform">
-                    <div class="q-container container-inner">
-                        <div class="columns">
-                            <div class="column">
-                                <h6 class="font-caps">Contact & More</h6>
-                                <ol class="links">
-                                    <li>
-                                        <a href="contact.html" target="_blank" rel="noreferrer noopener"
-                                            data-stick-cursor>
-                                            Contact Us
-                                            <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t">
-                                                    <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline>
-                                                    <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
-                                                </svg></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/MightyCrayon/" target="_blank"
-                                            rel="noreferrer noopener" data-stick-cursor>
-                                            Facebook
-                                            <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t">
-                                                    <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline>
-                                                    <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
-                                                </svg></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/company/mightycrayon/" target="_blank"
-                                            rel="noreferrer noopener" data-stick-cursor>
-                                            LinkedIn
-                                            <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t">
-                                                    <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline>
-                                                    <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
-                                                </svg></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.paypal.com/paypalme/mightycrayon" target="_blank"
-                                            rel="noreferrer noopener" data-stick-cursor>
-                                            Donate
-                                            <div class="arrow"><svg viewBox="0 0 80 80" class="cl-t">
-                                                    <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline>
-                                                    <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
-                                                </svg></div>
-                                        </a>
-                                    </li>
-                                </ol>
+                            <div class="column q-8">
+                                <h1><span class="q_split"><span class="rev_item">Get In Touch</span></span></h1>
+                                <p class="lead rev_show" style="max-width: 600px;">We're happy to answer any questions you might have about our mission, donations, or partnership opportunities.</p>
                             </div>
                         </div>
                     </div>
                 </section>
+                
+                <!-- Contact Methods Section -->
+                <section class="section feature-list">
+                    <div class="q-container container-inner">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="columns" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>Email Us</h4>
+                                        <p><a href="mailto:contact@mightycrayon.org" class="navlink" data-stick-cursor style="font-size: 1.1rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px;">
+                                                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                            </svg>
+                                            contact@mightycrayon.org
+                                        </a></p>
+                                        <p style="margin-top: 1rem;">We typically respond to all inquiries within 24-48 hours.</p>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>For Businesses</h4>
+                                        <p>Interested in becoming a corporate partner or sponsor? We have special programs for businesses looking to make an impact.</p>
+                                        <a href="partner.html" class="btn" style="margin-top: 1.5rem;" data-stick-cursor>
+                                            <span>Partnership Opportunities</span>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="column journal-thumbnail-container">
+                                        <h4>For Schools</h4>
+                                        <p>Are you an educator interested in getting your school involved with Mighty Crayon?</p>
+                                        <a href="schoolrequest.html" class="btn alt" style="margin-top: 1.5rem;" data-stick-cursor>
+                                            <span>School Programs</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Social Media Section -->
+                <section class="section" style="background: rgba(15, 15, 25, 0.4); border-radius: 16px; margin: 0 2rem; width: calc(100% - 4rem);">
+                    <div class="q-container container-inner">
+                        <div class="columns">
+                            <div class="column">
+                                <h2><span class="q_split"><span class="rev_item">Connect With Us</span></span></h2>
+                                <div class="social-icons" style="display: flex; gap: 1.5rem; margin-top: 2rem;">
+                                    <a href="https://www.facebook.com/MightyCrayon/" target="_blank" data-stick-cursor style="font-size: 1.5rem; background: rgba(255,255,255,0.1); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/mightycrayon/" target="_blank" data-stick-cursor style="font-size: 1.5rem; background: rgba(255,255,255,0.1); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                            <rect x="2" y="9" width="4" height="12"></rect>
+                                            <circle cx="4" cy="4" r="2"></circle>
+                                        </svg>
+                                    </a>
+                                    <a href="mailto:contact@mightycrayon.org" data-stick-cursor style="font-size: 1.5rem; background: rgba(255,255,255,0.1); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <p class="rev_show" style="max-width: 600px; margin-top: 2rem;">Follow us on social media to stay updated on our latest campaigns, events, and the impact we're making together.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
+                <!-- Donate CTA Section -->
+                <section class="section platform" style="padding-bottom: 5rem;">
+                    <div class="q-container container-inner">
+                        <div class="columns">
+                            <div class="column" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                                <h2 style="margin-bottom: 2rem;"><span class="q_split"><span class="rev_item">Support Our Mission</span></span></h2>
+                                <p style="margin-bottom: 2rem; text-align: center; max-width: 600px; margin-left: auto; margin-right: auto;">Your donation helps us provide creative opportunities to children around the world. Every crayon makes a difference.</p>
+                                <a href="https://www.paypal.com/paypalme/mightycrayon" target="_blank" class="btn" style="margin: 0 auto; display: inline-block;" data-stick-cursor>
+                                    <span>Donate Now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Footer Section -->
                 <footer id="footer">
                     <section class="section">
                         <div class="footer-wrap">
                             <a href="index.html" class="logo" data-stick-cursor id="main-logo" title="">
                                 <img src="assets/img/icons/android-chrome-512x512.png" />
-                                <p>&copy; <span class="year_copy">2023</span> <a href="index.html" data-stick-cursor
-                                        title="">Mighty
-                                        Crayon</a>.
-                                    All Rights Reserved.<br>
-                                    <a href="terms.html" data-stick-cursor>Terms of Service</a> &nbsp; | &nbsp; <a
-                                        href="privacy.html" data-stick-cursor>Privacy Policy</a><br>
-                                    Website by Aarnav Bhat and Piyush Acharya
-                                </p>
+                            </a>
+                            <p>&copy; <span class="year_copy">2023</span> <a href="index.html" data-stick-cursor
+                                    title="">Mighty
+                                    Crayon</a>.
+                                All Rights Reserved.<br>
+                                <a href="terms.html" data-stick-cursor>Terms of Service</a> &nbsp; | &nbsp; <a
+                                    href="privacy.html" data-stick-cursor>Privacy Policy</a><br>
+                                Website by Aarnav Bhat and Piyush Acharya
+                            </p>
                         </div>
                     </section>
-
-
                 </footer>
-
-
-
-
             </div>
-
             <script type="x-shader/x-fragment" id="fragmentShader">
 	#define TWO_PI 6.2831853072
 	#define PI 3.14159265359
-
 	precision highp float;
-
 	uniform float globaltime;
 	uniform vec2 resolution;
 	uniform float aspect;
 	uniform float scroll;
 	uniform float velocity;
 	uniform sampler2D texture;
-
 	const float timescale = 0.1;
 	const float twist = 2.0;
-
 	vec2 rotate(vec2 v, float angle) {
 		float c = cos(angle);
 		float s = sin(angle);
 		return v * mat2(c, -s, s, c);
 	}
-
 	float nsin(float value) {
 		return sin(value * TWO_PI) * 0.5 + 0.5;
 	}
-
 	void main(void) {
 		float time = globaltime * timescale;
 		vec2 center = vec2(sin(TWO_PI * time * 0.2), cos(TWO_PI * time * 0.2)) * nsin(time * 0.3) * 0.5;
 		vec2 tx = (gl_FragCoord.xy / resolution.xy - 0.5 - center) * vec2(aspect, 1.0);
 		float len = 1.0 - length(tx);
 		float zoom = 0.0 + scroll - len * 2.0 * (1.0 - scroll) + len * velocity;
-
 		vec4 imgColor = texture2D(
 			texture,
 			rotate(
@@ -316,28 +282,17 @@
 				twist * TWO_PI * nsin(len + time) * scroll + time
 			) + 0.5
 		);
-
         
-
 		gl_FragColor = imgColor;
 	}
 	</script>
-
-
-
         </div>
     </div>
-
-
-
     <script src="../unpkg.com/axios%400.27.2/dist/axios.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-
 </body>
-
 <script type="module">
     const imgSize = [1250, 1097];
-
     const vertex = `
 					attribute vec2 uv;
 					attribute vec2 position;
@@ -355,40 +310,28 @@
 					uniform float uTime;
 					varying vec2 vUv;
 					uniform vec4 res;
-
 					void main() {
-
 							// R and G values are velocity in the x and y direction
 							// B value is the velocity length
 							vec3 flow = texture2D(tFlow, vUv).rgb;
-
 							vec2 uv = .5 * gl_FragCoord.xy / res.xy ;
 							vec2 myUV = (uv - vec2(0.5))*res.zw + vec2(0.5);
 							myUV -= flow.xy * (0.15 * 0.7);
-
 							vec2 myUV2 = (uv - vec2(0.5))*res.zw + vec2(0.5);
 							myUV2 -= flow.xy * (0.125 * 0.7);
-
 							vec2 myUV3 = (uv - vec2(0.5))*res.zw + vec2(0.5);
 							myUV3 -= flow.xy * (0.10 * 0.7);
-
 							vec3 tex = texture2D(tWater, myUV).rgb;
 							vec3 tex2 = texture2D(tWater, myUV2).rgb;
 							vec3 tex3 = texture2D(tWater, myUV3).rgb;
-
               gl_FragColor = vec4(tex.r, tex2.g, tex3.b, 1.0);
 					}
 			`;
     {
         const renderer = new ogl.Renderer({ dpr: 2 });
         const gl = renderer.gl;
-
-
-
         document.getElementById('menu-content').appendChild(gl.canvas);
-
         //gl.canvas.classList.add('kenburns')
-
         // Variable inputs to control flowmap
         let aspect = 1;
         const mouse = new ogl.Vec2(-1);
@@ -409,7 +352,6 @@
                 a1,
                 a2
             );
-
             renderer.setSize(window.innerWidth, window.innerHeight);
             aspect = window.innerWidth / window.innerHeight;
         }
@@ -434,7 +376,6 @@
         img.onload = () => (texture.image = img);
         img.crossOrigin = "Anonymous";
         img.src = "assets/img/general/navbg2.jpg";
-
         let a1, a2;
         var imageAspect = imgSize[1] / imgSize[0];
         if (window.innerHeight / window.innerWidth < imageAspect) {
@@ -444,7 +385,6 @@
             a1 = (window.innerWidth / window.innerHeight) * imageAspect;
             a2 = 1;
         }
-
         const program = new ogl.Program(gl, {
             vertex,
             fragment,
@@ -462,10 +402,8 @@
             }
         });
         const mesh = new ogl.Mesh(gl, { geometry, program });
-
         window.addEventListener("resize", resize, false);
         resize();
-
         // Create handlers to get mouse position and velocity
         const isTouchCapable = "ontouchstart" in window;
         if (isTouchCapable) {
@@ -494,14 +432,10 @@
                 lastTime = performance.now();
                 lastMouse.set(e.x, e.y);
             }
-
             const deltaX = e.x - lastMouse.x;
             const deltaY = e.y - lastMouse.y;
-
             lastMouse.set(e.x, e.y);
-
             let time = performance.now();
-
             // Avoid dividing by 0
             let delta = Math.max(10.4, time - lastTime);
             lastTime = time;
@@ -511,18 +445,10 @@
             velocity.needsUpdate = true;
         }
         requestAnimationFrame(update);
-
         var menu = document.getElementById('menu')
-
-
-
-
         function update(t) {
-
             requestAnimationFrame(update);
-
             if (menu.classList.contains('active')) {
-
                 // Reset velocity when mouse not moving
                 if (!velocity.needsUpdate) {
                     mouse.set(-1);
@@ -538,12 +464,7 @@
                 program.uniforms.uTime.value = t * 0.01;
                 renderer.render({ scene: mesh });
             }
-
-
         }
-
-
     }
 </script>
-
 </html>
